@@ -1,0 +1,12 @@
+# MANIFEST.in
+include LICENSE
+include README.md
+include requirements.txt
+include *.txt
+include *.md
+recursive-include agriculture_system/web/templates *
+recursive-include agriculture_system/web/static *
+recursive-include agriculture_system/config *
+recursive-include examples *
+recursive-include scripts *
+recursive-include tests *

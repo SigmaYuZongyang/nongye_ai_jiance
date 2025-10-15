@@ -1,0 +1,18 @@
+# config/default_config.json
+{
+  "weather_api_key": "your_api_key_here",
+  "database_path": "agriculture_system.db",
+  "enable_hardware": false,
+  "enable_web_interface": true,
+  "model_path": "models/pretrained",
+  "logging": {
+    "level": "INFO",
+    "file": "agriculture_system.log"
+  },
+  "alert_thresholds": {
+    "temperature_high": 35,
+    "temperature_low": 5,
+    "humidity_high": 85,
+    "humidity_low": 30
+  }
+}

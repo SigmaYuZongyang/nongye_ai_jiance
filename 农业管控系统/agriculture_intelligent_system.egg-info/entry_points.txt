@@ -1,0 +1,3 @@
+[console_scripts]
+agri-system = agriculture_system.cli.main:main
+

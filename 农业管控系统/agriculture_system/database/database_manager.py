@@ -1,0 +1,2 @@
+class AgricultureDatabase:
+    pass
